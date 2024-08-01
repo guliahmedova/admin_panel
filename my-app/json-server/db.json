@@ -1,0 +1,18 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "username": "gulu",
+      "password": "123",
+      "role": "Super Admin",
+      "accessToken": "juhuns7fd8377bhb23hbbu"
+    },
+    {
+      "id": 1,
+      "username": "tom",
+      "password": "123",  
+      "role": "Admin",
+      "accessToken": "juhbjhj7hhuns7fd8377bhb23hbbu"
+    }
+  ]
+}

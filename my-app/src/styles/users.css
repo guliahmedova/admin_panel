@@ -1,0 +1,195 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid var(--secondary-color);
+    text-align: left;
+    padding: 8px;
+}
+th {
+    font-weight: 900;
+}
+td {
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+tr:nth-child(even) {
+    background-color: var(--body-bg);
+}
+
+.user-list {
+    width: 100%;
+    background-color: var(--primary-color);
+    height: auto;
+    padding: 2rem 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user-list .title {
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+.create-btn {
+    width: auto;
+    text-decoration: none;
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+.user-list .create-btn:hover{
+    background-color: rgb(2, 167, 85);
+    transition: all .5s ease-in-out;
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    margin: 0.1rem 0;
+    gap: 1rem;
+    align-items: center;
+}
+.edit-btn{
+    border: 2px solid var(--recommend-car01-bg);
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(167, 167, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 0.5rem;
+}
+.delete-btn:hover,.edit-btn:hover{
+    color: white;
+    transition: all .5s ease-in-out;
+}
+ .delete-btn{
+    border: 2px solid var(--recommend-car01-bg);
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(122, 7, 7);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 0.5rem;
+}
+.create-form-box {
+    width: 100%;
+    background-color: var(--primary-color);
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    padding: 2rem 0;
+}
+
+.create-form-box .stats__title {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.create-form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.create-form-box form input {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    outline: none;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+.create-form-box .form-check-input{
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+    border-radius: .1rem;
+}
+.create-form-box form input::placeholder {
+    color: var(--small-text-color);
+}
+
+.create-form-box form button {
+    background-color: var(--body-bg);
+    padding: 1rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.create-form-box .roles {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    outline: none;
+    color: var(--small-text-color);
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+.create-form-box .go-back-btn{
+    width: auto;
+    text-decoration: none;
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+.create-form-box .go-back-btn:hover{
+    background-color: rgb(2, 167, 85);
+    transition: all .5s ease-in-out;
+}
+
+.role-list .create-btn {
+    width: auto;
+    text-decoration: none;
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.title{
+    color: whitesmoke;
+}
+
+*{
+    text-transform: none;
+}
